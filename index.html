@@ -23,6 +23,7 @@
     <nav class="topnav">
       <a href="#kansen-risicos">Kansen &amp; risico's</a>
       <a href="#copilot">Copilot</a>
+      <a href="#zelfcheck">Zelfcheck</a>
       <a href="#classificatie">Classificatie</a>
       <a href="#nooit-delen">Nooit delen</a>
       <a href="#gevoelige-data">Toch nodig?</a>
@@ -34,9 +35,9 @@
 <div id="top" class="hero">
   <span class="eyebrow">Intern beleid · versie 2026</span>
   <h1>AI &amp; privacy bij Précon</h1>
-  <p class="lead">AI-tools zoals Copilot, ChatGPT en Claude kunnen ons werk sneller en beter maken — mits we bewust omgaan met wat we ermee delen. Deze pagina bundelt het interne AI-beleid van Précon in één overzicht.</p>
+  <p class="lead">Kort overzicht: wat mag wel, wat mag niet, en hoe zet je dit goed op je laptop.</p>
   <div class="draft-note">
-    Gebaseerd op <em>"AI intern beleid Précon 2026"</em> (concept). Dit document is nog in ontwikkeling — bij twijfel geldt altijd de meest recente versie vanuit HR/IT en kun je een collega van Compliance raadplegen.
+    Gebaseerd op het concept <em>"AI intern beleid Précon 2026"</em> — bij twijfel: vraag het Compliance/IT.
   </div>
 </div>
 
@@ -48,25 +49,24 @@
       <span class="num">1</span>
       <h2>Kansen &amp; risico's van AI</h2>
     </div>
-    <p class="slide-sub">AI biedt Précon veel kansen, maar kent ook een aantal structurele nadelen. Beide wegen mee in hoe we AI inzetten.</p>
     <div class="two-col">
       <div class="pane pane-green">
-        <h3>✓ Waar AI ons helpt</h3>
+        <h3>✓ Waar AI helpt</h3>
         <ul>
-          <li>Sneller een antwoord vinden in wetgeving en regelgeving</li>
-          <li>Inspiratiebron bij het ontwerpen van een training</li>
+          <li>Sneller antwoorden vinden in wetgeving</li>
+          <li>Inspiratie voor trainingen</li>
           <li>Notuleren van vergaderingen</li>
-          <li>Schrijfhulp bij adviesrapporten</li>
+          <li>Schrijfhulp bij rapporten</li>
           <li>Spelling- en grammaticacontrole</li>
         </ul>
       </div>
       <div class="pane pane-amber">
         <h3>! Waar we op letten</h3>
         <ul>
-          <li>AI-dialoogtools voorspellen taal, ze verifiëren geen feiten — antwoorden klinken overtuigend maar kunnen onjuist of verouderd zijn</li>
-          <li>Openbare AI-tools trainen standaard op jouw input — je deelt kennis gratis met een derde partij</li>
-          <li>Input (incl. persoonsgegevens) wordt standaard opgeslagen — dit kan in strijd zijn met de AVG</li>
-          <li>AI verbruikt veel energie en water — onoverwogen gebruik past niet bij onze duurzaamheidsambitie</li>
+          <li>Klinkt overtuigend, is niet altijd juist</li>
+          <li>Traint gratis het model van een ander bedrijf</li>
+          <li>Slaat input op — ook persoonsgegevens</li>
+          <li>Kost veel energie en water</li>
         </ul>
       </div>
     </div>
@@ -78,8 +78,7 @@
       <span class="num">2</span>
       <h2>Copilot bij Précon</h2>
     </div>
-    <p class="slide-sub">Précon is aangesloten bij Microsoft. Met je Précon-account kun je <strong>Microsoft 365 Copilot Chat</strong> gebruiken met automatische bedrijfsgegevensbescherming: ingevoerde gegevens en gegenereerde antwoorden worden niet gebruikt om AI-modellen te trainen.</p>
-    <p class="slide-sub">Microsoft kent grofweg twee niveaus. Check bij IT welk niveau voor jouw account geldt — onderstaand overzicht is algemene Microsoft-informatie, geen garantie voor jouw specifieke licentie.</p>
+    <p class="slide-sub">Met je Précon-account gebruik je <strong>Copilot Chat</strong> — met bedrijfsgegevensbescherming: input traint geen modellen.</p>
 
     <div class="compare">
       <div class="compare-col highlight">
@@ -89,24 +88,24 @@
         </div>
         <div class="compare-body">
           <ul>
-            <li>Gratis inbegrepen bij je Microsoft 365-werkaccount, geen aparte licentie nodig</li>
-            <li>Bedrijfsgegevensbescherming: prompts en antwoorden worden niet gebruikt om modellen te trainen en blijven binnen de Précon-tenant</li>
-            <li>Werkt als los chatvenster — leest niet automatisch je mail, Teams of SharePoint</li>
-            <li>Ziet alleen wat jij zelf typt, plakt of uploadt</li>
+            <li>Gratis bij je werkaccount</li>
+            <li>Niet gebruikt voor modeltraining</li>
+            <li>Blijft binnen de Précon-tenant</li>
+            <li>Ziet alleen wat jij typt of plakt</li>
           </ul>
         </div>
       </div>
       <div class="compare-col">
         <div class="compare-head">
           <span class="tag">Alleen indien apart afgenomen</span>
-          <h4>Microsoft 365 Copilot ("Premium")</h4>
+          <h4>M365 Copilot ("Premium")</h4>
         </div>
         <div class="compare-body">
           <ul>
-            <li>Betaalde licentie per gebruiker, bovenop Copilot Chat</li>
-            <li>Zelfde bedrijfsgegevensbescherming als Copilot Chat</li>
-            <li>Zit ingebouwd in Word, Excel, PowerPoint, Outlook en Teams</li>
-            <li>Mag actief meelezen in bestanden, mail en Teams-gesprekken waar jij toegang toe hebt ("Graph-grounding")</li>
+            <li>Betaalde licentie, per gebruiker</li>
+            <li>Zelfde databescherming als Copilot Chat</li>
+            <li>Ingebouwd in Word, Excel, Outlook, Teams</li>
+            <li>Leest mee in jouw mail &amp; bestanden</li>
           </ul>
         </div>
       </div>
@@ -117,43 +116,97 @@
         </div>
         <div class="compare-body">
           <ul>
-            <li>ChatGPT, Gemini, Claude, Le Chat, DeepL, Perplexity, Fireflies, NotebookLM, e.d.</li>
-            <li>Maak een account aan en zet — waar beschikbaar — expliciet de <em>opt-out</em> voor modeltraining aan</li>
-            <li>Kan die instelling niet? Deel dan geen gevoelige of vertrouwelijke informatie</li>
+            <li>ChatGPT, Gemini, Claude, DeepL, …</li>
+            <li>Zet zelf de opt-out aan voor training</li>
+            <li>Kan dat niet? Deel dan niets gevoeligs</li>
           </ul>
         </div>
       </div>
     </div>
-    <p class="compare-foot">Let op bij Premium: het toont alleen wat jij al mag zien, maar als SharePoint- of Teams-rechten te ruim staan, kan het toch informatie naar boven halen die eigenlijk niet voor jou bedoeld was. Meld twijfel hierover bij IT.</p>
+    <p class="compare-foot">Let op bij Premium: het toont alleen wat je al mag zien — maar bij te ruime SharePoint/Teams-rechten kan dat alsnog gevoelig zijn. Twijfel? Meld het bij IT.</p>
   </section>
 
-  <!-- 3. Classificatie -->
-  <section class="slide" id="classificatie">
+  <!-- 3. Zelfcheck -->
+  <section class="slide" id="zelfcheck">
     <div class="slide-kicker">
       <span class="num">3</span>
+      <h2>Zelfcheck: heb je dit al geregeld?</h2>
+    </div>
+    <p class="slide-sub">Klik een punt open voor de stappen op je (HP-)laptop.</p>
+
+    <div class="checklist">
+      <details class="check-item">
+        <summary>
+          <span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <strong>Ik gebruik Copilot met mijn Précon-account, niet privé</strong>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="steps-body">
+          <ol>
+            <li>Open het Copilot-icoon in de Windows-taakbalk, of ga naar copilot.microsoft.com in Edge.</li>
+            <li>Klik rechtsboven op "Aanmelden".</li>
+            <li>Kies je <strong>@precongroup.com</strong>-account — niet een privé Microsoft-account.</li>
+            <li>Zie je een schildicoon of "beschermd" bij het invoerveld? Dan zit het goed.</li>
+          </ol>
+        </div>
+      </details>
+
+      <details class="check-item">
+        <summary>
+          <span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <strong>Bij andere AI-tools heb ik modeltraining uitgezet</strong>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="steps-body">
+          <ol>
+            <li>Log in op de tool (ChatGPT, Gemini, Claude, …).</li>
+            <li>Ga naar Instellingen → Privacy of Databeheer.</li>
+            <li>Zet "gebruik mijn gesprekken om het model te trainen" uit.</li>
+            <li>Optie niet te vinden? Deel dan geen gevoelige informatie in die tool.</li>
+          </ol>
+        </div>
+      </details>
+
+      <details class="check-item">
+        <summary>
+          <span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <strong>Ik behandel Copilot-gesprekken hetzelfde als e-mail</strong>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="steps-body">
+          <div class="why"><b>Waarom?</b> Geen modeltraining ≠ geen opslag. Je gesprekken worden nog wel (tijdelijk) bewaard door Microsoft — o.a. voor beveiliging — en kunnen langer bewaard blijven als Précon een bewaarbeleid heeft ingesteld. Dat is <em>geen</em> "zero retention". Dus: net als bij e-mail, geen persoonsgegevens erin.</div>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- 4. Classificatie -->
+  <section class="slide" id="classificatie">
+    <div class="slide-kicker">
+      <span class="num">4</span>
       <h2>Classificatie van informatie</h2>
     </div>
-    <p class="slide-sub">Voor je iets in een AI-tool typt: bepaal eerst in welke categorie de informatie valt.</p>
+    <p class="slide-sub">Bepaal eerst in welke categorie je informatie valt.</p>
     <div class="tiers">
       <div class="tier low">
         <div class="tier-label"><span class="dot"></span>Niet-gevoelig / openbaar</div>
-        <div class="tier-examples">Wetstukken, informatie van openbare websites, mediaberichten, etc.</div>
-        <div class="tier-policy">AI-gebruik toegestaan, mits opt-out</div>
+        <div class="tier-examples">Wetstukken, openbare websites, mediaberichten</div>
+        <div class="tier-policy">Toegestaan, mits opt-out</div>
       </div>
       <div class="tier mid">
         <div class="tier-label"><span class="dot"></span>Gevoelig / vertrouwelijk</div>
-        <div class="tier-examples">Bedrijfsinformatie, e-mails, foto's van medewerkers, interne documenten, etc.</div>
+        <div class="tier-examples">Bedrijfsinfo, e-mails, foto's, interne documenten</div>
         <div class="tier-policy">Toegestaan, mits opt-out én afgewogen</div>
       </div>
       <div class="tier high">
         <div class="tier-label"><span class="dot"></span>Zeer gevoelig / strikt vertrouwelijk</div>
-        <div class="tier-examples">Persoonsgegevens.</div>
-        <div class="tier-policy">AI-gebruik NOOIT toegestaan</div>
+        <div class="tier-examples">Persoonsgegevens</div>
+        <div class="tier-policy">NOOIT toegestaan</div>
       </div>
     </div>
   </section>
 
-  <!-- 4. Nooit delen -->
+  <!-- 5. Nooit delen -->
   <section class="slide" id="nooit-delen">
     <div class="banner danger">
       <span class="banner-icon">
@@ -168,7 +221,7 @@
       </div>
       <div class="cat-card">
         <div class="cat-head">Foto's en video's</div>
-        <div class="cat-body">Afbeeldingen en video-opnamen van personen zonder toestemming</div>
+        <div class="cat-body">Herkenbare personen zonder toestemming</div>
       </div>
       <div class="cat-card">
         <div class="cat-head">Gezondheidsgegevens</div>
@@ -184,104 +237,119 @@
       </div>
       <div class="cat-card">
         <div class="cat-head">Overige persoonsgegevens</div>
-        <div class="cat-body">Financiële &amp; locatiegegevens · Alle herleidbare info</div>
+        <div class="cat-body">Financiële &amp; locatiegegevens</div>
       </div>
     </div>
-    <div class="basis-note"><strong>Grondslag: AVG</strong> — verwerking van persoonsgegevens vereist een rechtmatige grondslag en passende beveiliging. Een openbare AI-tool is geen veilige verwerker voor dit soort gegevens.</div>
+    <div class="basis-note"><strong>Grondslag: AVG</strong> — een openbare AI-tool is geen veilige verwerker voor dit soort gegevens.</div>
   </section>
 
-  <!-- 5. Toch gevoelige data -->
+  <!-- 6. Toch gevoelige data -->
   <section class="slide" id="gevoelige-data">
     <div class="banner go">
       <span class="banner-icon">
         <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2"><path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </span>
-      <h3>Moet je toch gevoelige data gebruiken? Zo doe je dat veilig</h3>
+      <h3>Toch gevoelige data nodig? Zo doe je dat veilig</h3>
     </div>
-    <p class="slide-sub">Soms is een voorbeeld met echte data net iets duidelijker. Verwerk het dan éérst, buiten de AI-tool om, met één van onderstaande stappen — in deze volgorde van voorkeur.</p>
+    <p class="slide-sub">Verwerk het bestand éérst, buiten de AI-tool om — in deze volgorde van voorkeur.</p>
 
     <div class="steps">
       <div class="step">
         <div class="step-num">1</div>
         <div>
           <h4>Verwijderen</h4>
-          <p>Haal het gevoelige veld of fragment volledig uit het document, de tabel of de afbeelding vóórdat je iets deelt. Geen naam nodig voor je vraag? Laat de kolom of zin gewoon weg in plaats van hem onzichtbaar te maken.</p>
+          <p>Kun je het veld gewoon weglaten? Doe dat dan.</p>
         </div>
       </div>
       <div class="step">
         <div class="step-num">2</div>
         <div>
           <h4>Anonimiseren of pseudonimiseren</h4>
-          <p>Vervang namen, BSN's, adressen en andere herleidbare gegevens door generieke placeholders (bijv. "Klant A", "[BSN]", "medewerker X") of door verzonnen voorbeeldgegevens. Zo blijft de context van je vraag intact, zonder dat de data naar een echt persoon te herleiden is.</p>
+          <p>Vervang namen, BSN, adres door "[naam]", "Klant A" of verzonnen voorbeelden.</p>
         </div>
       </div>
       <div class="step">
         <div class="step-num">3</div>
         <div>
-          <h4>Correct redigeren van afbeeldingen en documenten</h4>
-          <p>Gebruik een echte redigeer-/"redact"-functie (bijv. in Adobe Acrobat, Preview op macOS, of een pixelation-tool) die de onderliggende pixels of tekst daadwerkelijk overschrijft of verwijdert.</p>
-          <div class="not-this"><b>Niet doen:</b>&nbsp;een zwart vlak, blur-filter of tekstvak overheen plakken in Word, PowerPoint of Paint. De originele tekst of pixels blijven dan gewoon in het bestand staan — te kopiëren uit de tekstlaag van een PDF, te verwijderen als losse laag in PowerPoint, of simpelweg nog leesbaar voor een AI-tool die het beeld analyseert.</div>
+          <h4>Correct redigeren — niet blurren</h4>
+          <p>Gebruik een tool die pixels of tekst écht verwijdert, geen laagje erover.</p>
           <div class="mock-row">
             <div class="mock bad">
               <div class="mock-label">✗ Schijnbaar geblurd</div>
               <div class="mock-line"></div>
               <div class="mock-line short"></div>
               <span class="redact-fake">Jan Jansen<span class="cover"></span></span>
-              <div class="mock-caption">Alleen een laag overheen — de tekst zit er nog steeds achter en is te extraheren.</div>
+              <div class="mock-caption">Tekst zit er nog achter.</div>
             </div>
             <div class="mock good">
               <div class="mock-label">✓ Echt geredigeerd</div>
               <div class="mock-line"></div>
               <div class="mock-line short"></div>
               <span class="redact-solid"></span>
-              <div class="mock-caption">De naam is daadwerkelijk verwijderd/overschreven — er is niets meer om uit te lezen.</div>
+              <div class="mock-caption">Écht verwijderd — niets te vinden.</div>
             </div>
           </div>
+          <details class="more">
+            <summary>Waarom mag geen blur/zwart vlak?</summary>
+            <div class="more-body">Een laag overheen plakken in Word, PowerPoint of Paint verwijdert niets: de tekst blijft erachter staan. Te kopiëren uit de tekstlaag van een PDF, te verwijderen als losse laag in PowerPoint, of gewoon zichtbaar voor een AI die de afbeelding analyseert. Gebruik in plaats daarvan een echte redigeerfunctie (bijv. Acrobat "Redact" of Preview op macOS).</div>
+          </details>
         </div>
       </div>
       <div class="step">
         <div class="step-num">4</div>
         <div>
-          <h4>Controleer ook verborgen metadata</h4>
-          <p>EXIF-gegevens in foto's (locatie, toestel), auteursnaam en opmerkingen in Word/Excel, verborgen rijen/kolommen in Excel en sprekersnotities in PowerPoint reizen vaak onopgemerkt mee. Verwijder deze via "Documenteigenschappen &amp; persoonlijke gegevens verwijderen" (Office) of de metadata-opties van je besturingssysteem, vóór je deelt.</p>
+          <h4>Check verborgen metadata</h4>
+          <p>EXIF, auteursnaam, verborgen Excel-rijen — haal dit eruit vóór je deelt.</p>
+          <details class="more">
+            <summary>Wat bedoel ik daarmee?</summary>
+            <div class="more-body">
+              <ul>
+                <li>Foto's: locatie en toestelgegevens (EXIF)</li>
+                <li>Word/Excel: auteursnaam en opmerkingen</li>
+                <li>Excel: verborgen rijen of kolommen</li>
+                <li>PowerPoint: sprekersnotities</li>
+              </ul>
+              Verwijderen via Office: Bestand → Info → "Documenteigenschappen en persoonlijke gegevens verwijderen".
+            </div>
+          </details>
         </div>
       </div>
       <div class="step">
         <div class="step-num">5</div>
         <div>
-          <h4>Controleer het eindresultaat</h4>
-          <p>Open het bestand opnieuw en probeer zelf de "verwijderde" tekst te selecteren, kopiëren of te zien onder de bewerking. Kun jij het nog terughalen? Dan kan een AI-tool dat ook.</p>
+          <h4>Test het zelf</h4>
+          <p>Kun jij de "verwijderde" tekst nog selecteren of kopiëren? Dan kan een AI dat ook.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 6. Interne afspraken -->
+  <!-- 7. Interne afspraken -->
   <section class="slide" id="afspraken">
     <div class="slide-kicker">
-      <span class="num">6</span>
+      <span class="num">7</span>
       <h2>Interne afspraken op een rij</h2>
     </div>
     <div class="checklist">
       <div class="check-item">
         <span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-        <p>Zet vóór gebruik in de instellingen de trainingsoptie uit. Kan dat niet? Deel dan geen gevoelige of vertrouwelijke informatie.</p>
+        <p>Zet de trainingsoptie uit vóór gebruik. Kan dat niet? Deel dan niets gevoeligs.</p>
       </div>
       <div class="check-item">
         <span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-        <p>Deel gevoelige of vertrouwelijke informatie uitsluitend na een zorgvuldige afweging: zijn alle persoonsgegevens verwijderd, bevat het interne kennis, hoe ernstig is het als het toch openbaar wordt, en hoe betrouwbaar is de tool?</p>
+        <p>Deel gevoelige info alleen na afweging: zijn namen weg? Hoe erg is het als het uitlekt?</p>
       </div>
       <div class="check-item">
         <span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-        <p>Vermeld nooit persoonsgegevens — ook niet "even snel" of "geanonimiseerd genoeg volgens jou".</p>
+        <p>Vermeld nooit persoonsgegevens.</p>
       </div>
       <div class="check-item">
         <span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-        <p>Controleer altijd wat een AI-tool genereert — het is niet per definitie correct. Jij blijft eindverantwoordelijk voor je eigen werk, ook als AI daarbij geholpen heeft.</p>
+        <p>Check altijd de output — jij blijft eindverantwoordelijk voor je werk.</p>
       </div>
       <div class="check-item">
         <span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-        <p>Gebruik AI doelgericht, waar het echt tijd bespaart of werk verbetert — met oog voor de impact van AI op milieu en klimaat.</p>
+        <p>Gebruik AI gericht — ook met oog voor de impact op milieu en klimaat.</p>
       </div>
     </div>
   </section>
