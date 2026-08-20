@@ -464,6 +464,41 @@ details.more .more-body ul { margin: 0; padding-left: 16px; }
 details.more .more-body li { margin-bottom: 4px; }
 details.more .more-body li:last-child { margin-bottom: 0; }
 
+/* ===== Prominent redact how-to ===== */
+.redact-guide { margin-top: 16px; }
+.redact-note {
+  margin: 0 0 14px;
+  font-size: 13px;
+  line-height: 1.6;
+  background: var(--orange-tint);
+  color: var(--orange-dark);
+  border-radius: 10px;
+  padding: 11px 15px;
+}
+.redact-note strong { color: var(--navy); }
+.method-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+@media (max-width: 640px) { .method-grid { grid-template-columns: 1fr; } }
+.method-card {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px 18px;
+  background: var(--bg);
+}
+.method-card h5 {
+  margin: 0 0 10px;
+  font-size: 13px;
+  color: var(--navy);
+  line-height: 1.4;
+}
+.method-card ol { margin: 0; padding-left: 18px; }
+.method-card li { font-size: 12.5px; line-height: 1.65; color: var(--slate); margin-bottom: 7px; }
+.method-card li:last-child { margin-bottom: 0; }
+.method-card li strong { color: var(--navy); }
+
 .mock-row {
   display: flex;
   gap: 14px;

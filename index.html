@@ -272,7 +272,7 @@
         <div class="step-num">3</div>
         <div>
           <h4>Correct redigeren — niet blurren</h4>
-          <p>Gebruik een tool die pixels of tekst écht verwijdert, geen laagje erover.</p>
+          <p>Een laag overheen plakken (Word/PowerPoint/Paint) verwijdert niets — de tekst blijft erachter staan en is te kopiëren of door AI te lezen.</p>
           <div class="mock-row">
             <div class="mock bad">
               <div class="mock-label">✗ Schijnbaar geblurd</div>
@@ -289,10 +289,37 @@
               <div class="mock-caption">Écht verwijderd — niets te vinden.</div>
             </div>
           </div>
-          <details class="more">
-            <summary>Waarom mag geen blur/zwart vlak?</summary>
-            <div class="more-body">Een laag overheen plakken in Word, PowerPoint of Paint verwijdert niets: de tekst blijft erachter staan. Te kopiëren uit de tekstlaag van een PDF, te verwijderen als losse laag in PowerPoint, of gewoon zichtbaar voor een AI die de afbeelding analyseert. Gebruik in plaats daarvan een echte redigeerfunctie (bijv. Acrobat "Redact" of Preview op macOS).</div>
-          </details>
+
+          <div class="redact-guide">
+            <p class="redact-note"><strong>Geen betaalde Adobe? Kan gewoon.</strong> "Redigeren" zit alleen in de betaalde Acrobat Pro — niet in de gratis Acrobat Reader die de meeste Préconners hebben. Gebruik één van deze twee gratis manieren op je laptop:</p>
+            <div class="method-grid">
+              <div class="method-card">
+                <h5>Optie A — LibreOffice (gratis, voor PDF's)</h5>
+                <ol>
+                  <li>Installeer LibreOffice via libreoffice.org (vraag IT als je geen rechten hebt om te installeren)</li>
+                  <li>Open het PDF-bestand: rechtermuisknop → Openen met → <strong>LibreOffice Draw</strong></li>
+                  <li>Zet de werkbalk <strong>"Redactie"</strong> aan via Beeld → Werkbalken → Redactie</li>
+                  <li>Teken een vlak over elk stuk tekst of elke afbeelding die weg moet</li>
+                  <li>Klik op <strong>"Redactie exporteren"</strong> — dit maakt een nieuw, schoongemaakt bestand (het origineel blijft intact)</li>
+                  <li>Test het nieuwe bestand: probeer een zwart vlak te selecteren of kopiëren — dat mag niet lukken</li>
+                </ol>
+              </div>
+              <div class="method-card">
+                <h5>Optie B — niets installeren: platmaken tot afbeelding</h5>
+                <ol>
+                  <li>Dek de tekst af met een <strong>dekkend</strong> zwart vlak in Word, PowerPoint of Paint</li>
+                  <li>Sla de pagina/dia op als afbeelding (PowerPoint: Bestand → Opslaan als → PNG)</li>
+                  <li>Plaats die afbeelding in een nieuw, leeg document</li>
+                  <li>Sla dát op als PDF (of gebruik "Microsoft afdrukken naar PDF")</li>
+                  <li>Er is nu geen tekstlaag meer over — alleen platte pixels, dat deel je</li>
+                </ol>
+              </div>
+            </div>
+            <details class="more">
+              <summary>Heb je wél Acrobat Pro?</summary>
+              <div class="more-body">Tools → Redigeren (Redact) → markeer de tekst of afbeeldingen → "Redacties toepassen". Dit verwijdert de onderliggende data echt, in tegenstelling tot er een zwart vlak overheen tekenen met de gewone markeer-tools.</div>
+            </details>
+          </div>
         </div>
       </div>
       <div class="step">
